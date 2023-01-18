@@ -1,0 +1,17 @@
+@import "./utils/_mixins.scss";
+@import "./utils/_variables.scss";
+@import "./utils/_visually-hidden.scss";
+
+@import "./base/_base.scss";
+@import "./base/_reset.scss";
+
+
+@import "./components/_subtitle.scss";
+@import "./components/header";
+@import "./components/booking-btn";
+
+@import "./layouts/_hero.scss";
+@import "./layouts/about";
+@import "./layouts/price";
+
+

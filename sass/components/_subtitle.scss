@@ -1,0 +1,34 @@
+.subtitle__box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.subtitle__stick{
+width: 60px;
+height: 1px;
+display: inline-block;
+background: $gray-dis;
+margin-right: 20px;
+}
+
+.subtitle__stick--black{
+    background-color: $hader-text;
+}
+
+.subtitle__text{
+    display: inline-block;
+font-weight: 600;
+font-size: 11px;
+line-height: calc(15/11);
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: $gray-dis;
+}
+
+.subtitle__text--black{
+color: $hader-text;
+}

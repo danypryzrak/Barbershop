@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 112px;
+}
+
+.header__logo{
+    fill: $white;
+}

@@ -1,0 +1,34 @@
+.booking-btn{
+width: 160px;
+height: 40px;
+background-color: transparent;
+
+
+border: 1px solid $accent-color;
+border-radius: 25px;
+
+&:hover,
+&:focus,
+&:active{
+    background-color: $accent-color;
+}
+}
+
+.booking-btn__link{
+    font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+text-decoration: none;
+
+color: $hader-text;
+}
+
+.booking-btn__link--white{
+    color: $white;
+}
+
+//  <button type="button" class="booking-btn">  <a class="booking-btn__link" href="">online-booking</a> </button>
+                
+                    

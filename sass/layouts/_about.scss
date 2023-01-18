@@ -1,0 +1,48 @@
+.about{}
+
+.about__subtitle{
+    font-weight: 600;
+font-size: 11px;
+line-height: calc(15/11);
+
+text-transform: uppercase;
+color: $hader-text;
+
+}
+
+.about__title{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+letter-spacing: 0.05em;
+
+color: $hader-text;
+
+margin-bottom: 20px;
+}
+
+.about__add-text{font-weight: 400;
+font-size: 16px;
+line-height: calc(26/16);
+
+letter-spacing: 0.02em;
+
+color: $text;
+
+margin-bottom: 20px;
+}
+
+.about__text{
+font-weight: 400;
+font-size: 14px;
+line-height: calc(26/14);
+
+letter-spacing: 0.02em;
+
+color: $text;
+
+margin-bottom: 40px;
+
+}
